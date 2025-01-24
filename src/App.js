@@ -8,19 +8,23 @@ import {Wishlist} from './components/Wishlist';
 import {Explore} from './components/Explore';
 import {Routes, Route} from 'react-router-dom';
 
+import './css/App.css';
+
 function App() {
   return (
     <div>
-      <Header />
-        <Routes>
-          {/* <Route path='/ranking' element={<Ranking />} /> */}
-          <Route path="/home" element={<Home />} />
-          <Route path="/wishlist" element={<Wishlist />} />
-          <Route path="/explore" element={<Explore />} />
-          <Route path="/profile" element={<Profile />} />
-         </Routes>
-       <Footer />
-       </div>
+      <div className="app-container">
+        <Header />
+          <Routes>
+            {/* <Route path='/ranking' element={<Ranking />} /> */}
+            <Route path="/home" element={<Home />} />
+            <Route path="/wishlist" element={<Wishlist />} />
+            <Route path="/explore" element={<Explore />} />
+            <Route path="/profile" element={<Profile />} />
+          </Routes>
+        <Footer />
+        </div>
+      </div>
   );
 }
 
