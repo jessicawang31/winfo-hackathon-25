@@ -1,0 +1,66 @@
+/* Wishlist Container */
+.wishlist-container {
+    padding: 20px;
+    margin-top: 0px; /* Adjust based on header height */
+}
+
+/* Header */
+.wishlist-header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Grid */
+.wishlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+/* Card */
+.wishlist-card {
+    position: relative;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.wishlist-card:hover {
+    transform: scale(1.02);
+}
+
+/* Heart Icon */
+.wishlist-card-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.wishlist-icon {
+    font-size: 16px;
+    color: #ff6f61;
+    cursor: pointer;
+}
+
+/* Purchased Tag */
+.wishlist-card-tag {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #cce5cc; /* Green for purchased */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4caf50;
+}
