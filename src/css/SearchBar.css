@@ -1,0 +1,29 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 60px; /* Adjust if your header height is different */
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .camera-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    margin-left: 10px;
+  }
+  
+  .camera-button:focus {
+    outline: none;
+  }
+  
+  .camera-button i {
+    pointer-events: none;
+  }
+  

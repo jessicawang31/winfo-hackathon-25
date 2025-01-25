@@ -7,14 +7,6 @@ import '@fortawesome/fontawesome-free/css/all.min.css'; // for icons
 
 export function Footer() {
     return (
-        // <footer className="footer">
-        //     <nav className="footer-nav">
-        //         <Link to="/home" className="nav-item">Home</Link>
-        //         <Link to="/wishlist" className="nav-item">Wishlist</Link>
-        //         <Link to="/explore" className="nav-item">Explore</Link>
-        //         <Link to="/profile" className="nav-item">Profile</Link>
-        //     </nav>
-        // </footer>
         <footer className="footer">
             <nav className="footer-nav">
                 <Link to="/home" className="nav-item">

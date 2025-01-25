@@ -1,8 +1,7 @@
 import React from 'react';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
-import { Home } from './components/Home';
-// import { Ranking } from './components/Ranking';
+import { Home } from './components/HomePage/Home';
 import {Profile} from './components/Profile';
 import {Wishlist} from './components/Wishlist';
 import {Explore} from './components/Explore';
