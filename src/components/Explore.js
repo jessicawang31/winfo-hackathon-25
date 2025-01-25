@@ -7,8 +7,8 @@
 
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/Explore.css';
-
 
 export function Explore() {
     return (
@@ -22,28 +22,28 @@ export function Explore() {
             <section className="explore-section">
                 <h2>Top Rated Brands</h2>
                 <div className="explore-grid">
-                    <div className="card"></div>
-                    <div className="card"></div>
-                    <div className="card"></div>
-                    <div className="card"></div>
+                    <Link to="/wishlist" className="card"></Link>
+                    <Link to="/wishlist" className="card"></Link>
+                    <Link to="/wishlist" className="card"></Link>
+                    <Link to="/wishlist" className="card"></Link>
                 </div>
             </section>
             <section className="explore-section">
                 <h2>Best Impact</h2>
                 <div className="explore-grid">
-                    <div className="card"></div>
-                    <div className="card"></div>
-                    <div className="card"></div>
-                    <div className="card"></div>
+                    <Link to="/wishlist" className="card"></Link>
+                    <Link to="/wishlist" className="card"></Link>
+                    <Link to="/wishlist" className="card"></Link>
+                    <Link to="/wishlist" className="card"></Link>
                 </div>
             </section>
             <section className="explore-section">
                 <h2>Most Popular</h2>
                 <div className="explore-grid">
-                    <div className="card"></div>
-                    <div className="card"></div>
-                    <div className="card"></div>
-                    <div className="card"></div>
+                    <Link to="/wishlist" className="card"></Link>
+                    <Link to="/wishlist" className="card"></Link>
+                    <Link to="/wishlist" className="card"></Link>
+                    <Link to="/wishlist" className="card"></Link>
                 </div>
             </section>
         </div>
