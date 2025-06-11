@@ -1,4 +1,4 @@
-# Winfo-Hackathon-25
+# Virtu
 Jenny Speelmon, Michelle Kim, Jessica Wang, Tai Nguyen 
 
 Problem Statement: 
